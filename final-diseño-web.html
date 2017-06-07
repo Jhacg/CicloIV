@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Final Pagina Web</title>
+    <link rel="styleSheet" type="text/css" href="css/estilos-final.css"/>
+    <link rel="styleSheet" type="text/css" href="js/jquery-ui-1.10.4.css"/>
+
+</head>  
+<body style ="position:relative">
+
+<!--- encabezado -->
+<header>
+    <div id="web">
+        <img src="imagenes/web.png">
+
+            <nav style="float:right">
+                <ul id="menu" >       
+                    <li><a href="final-diseño-web.html">LA EMPRESA</a></li>
+                    <li><a href="#">NOVEDADES</a>
+                        <ul>
+                            <li><a href="tecnologia1.html">celular</a></li>
+                            <li><a href="#">Casa</a></li>
+                           <li><a href="#">Empresa</a></li>
+                        </ul>
+                    </li>
+                    
+                
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                
+                </ul>
+            </nav>
+    </div>
+</header>
+        <!--- baner -->
+        <section id="section1" >    
+            <div id="section1-left">
+                <div style="padding:60px">
+                    <span id="title">LA CALIDAD DE SERVICIOS QUE NECESITAS</span>
+                    <p id="sub-title">El mejor servicio de Lima Metropolitana</p>
+                    <div>
+                        <button >Botón1</button>
+                        <button>Botón2</button>
+                        <button>Botón3</button>
+                    </div>
+                </div>
+            </div>  
+
+            <div id="section1-right">
+                <img src="imagenes/futuro.jpg">
+            </div>
+
+        </section><!-- section 1-->
+
+        <hr>
+        <!-- cuerpo -->
+        <main> 
+            <div id="main-left">
+                <img src="imagenes/seguridad.jpg">
+            </div>
+            <div id="main-right">
+                <div style="padding:30px">
+                    <h2>Empresa de Servicios</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis, ex ut posuere gravida, tellus est fermentum nibh, nec ullamcorper dolor odio quis purus. Nullam ac purus vel ante pellentesque semper et quis massa. Aenean nec ex in arcu viverra blandit id nec mi</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis, ex ut posuere gravida, tellus est fermentum nibh, nec ullamcorper dolor odio quis purus. Nullam ac purus vel ante pellentesque semper et quis massa. Aenean nec ex in arcu viverra blandit id nec mi</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis, ex ut posuere gravida, tellus est fermentum nibh, nec ullamcorper dolor odio quis purus. Nullam ac purus vel ante pellentesque semper et quis massa. Aenean nec ex in arcu viverra blandit id nec mi</p>                              
+                </div>
+            </div>
+
+
+
+        <!-- 
+
+            agregar aqui 3 columnas. Como referencia usen las 3 columnas de la tarea anterior
+
+        -->
+        <section>
+                <div class="category">
+                    <div style="margin-right:20px">
+                        <div class="category-title">
+                            <h3>Publicidad Uno</h3>
+                        </div>
+                        <div class="category-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ultricies felis, quis pretium tellus</p>
+                            
+                        </div>
+                    </div>
+                </div><div class="category">
+                    <div style="margin-right:20px">
+                        <div class="category-title">
+                            <h3 style="text-align:center">Publicidad Dos</h3>
+                        </div>
+                        <div class="category-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ultricies felis, quis pretium tellus</p>
+                        </div>
+                    </div>
+                </div><div class="category" style="width:34%">
+                    <div style="margin-right:0">
+                        <div class="category-title">
+                            <h3>Publicidad Tres</h3>
+                        </div>
+                        <div class="category-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ultricies felis, quis pretium tellus</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- pie de página -->
+        <footer>    
+            <p>Derechos Reservados 2016</p>
+        </footer>
+
+</body>
+<!--para jalar la libreria de jquery-->
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.4.js"></script>
+<!-- libreria para crear menu-->
+
+<script type="text/javascript">
+    $("#menu").menu({
+        position: { at: "left bottom"},
+        icons: { submenu: "ui-icon-circle-triangle-s" }
+        
+    });
+  
+</script>
+
+</html>
